@@ -5777,7 +5777,9 @@ var _ref6 = Object(preact_min["h"])(
 var _ref7 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
-	'The reward for work well done is the opportunity to do more.',
+	'The reward for work well done is the',
+	Object(preact_min["h"])('br', null),
+	'opportunity to do more.',
 	Object(preact_min["h"])(
 		'cite',
 		null,
