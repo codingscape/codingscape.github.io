@@ -5749,13 +5749,13 @@ function home__inherits(subClass, superClass) { if (typeof superClass !== "funct
 var home__ref = Object(preact_min["h"])(
 	'h2',
 	null,
-	'Hello'
+	'How can we help?'
 );
 
 var home__ref2 = Object(preact_min["h"])(
 	'p',
 	null,
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+	'Codingscape is a full service software consulting and development company - we\u2019re here to help you solve your software goals. We\u2019re trustworthy people ready to lend a hand on a problem or take a software project from start to finish.'
 );
 
 var _ref3 = Object(preact_min["h"])('img', { src: 'assets/images/pair-programming.jpg' });
@@ -5763,7 +5763,7 @@ var _ref3 = Object(preact_min["h"])('img', { src: 'assets/images/pair-programmin
 var _ref4 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
-	'Take the thing and do the stuff like you mean it.'
+	'Helping you reach your goals.'
 );
 
 var _ref5 = Object(preact_min["h"])('img', { src: 'assets/images/charting.jpg' });
@@ -5771,17 +5771,17 @@ var _ref5 = Object(preact_min["h"])('img', { src: 'assets/images/charting.jpg' }
 var _ref6 = Object(preact_min["h"])(
 	'p',
 	null,
-	'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+	'Learn more about the types of projects we work on and the services we offer on our capabilities page! Or contact us if you want to discuss a project in depth - we\u2019re always happy to hop on the phone and talk through a potential project. Just ask!'
 );
 
 var _ref7 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
-	'Wherever you go, there you are.',
+	'The reward for work well done is the opportunity to do more.',
 	Object(preact_min["h"])(
 		'cite',
 		null,
-		'Buckaroo Banzai'
+		'Jonas Salk'
 	)
 );
 
@@ -6390,13 +6390,13 @@ function capabilities__inherits(subClass, superClass) { if (typeof superClass !=
 var capabilities__ref = Object(preact_min["h"])(
 	'h2',
 	null,
-	'Skills to pay the bills'
+	'We have the skills you are looking for.'
 );
 
 var capabilities__ref2 = Object(preact_min["h"])(
 	'p',
 	null,
-	'Lorem ipsum made of gypsum.'
+	'We have deep experience in creating highly scalable technology that has been used by millions of people. Chances are you\u2019ve used a Codingscape software product and you didn\u2019t even know it! Our products span the software world from robots to web apps and APIs to publisher software books.'
 );
 
 var capabilities__ref3 = Object(preact_min["h"])(skill_icon_SkillIcon, { icon: 'code', name: 'Front End', target: '#front-end' });
@@ -6536,58 +6536,52 @@ function about__inherits(subClass, superClass) { if (typeof superClass !== "func
 var about__ref = Object(preact_min["h"])(
 	'p',
 	null,
-	'Codingscape is a software team that has been working with front and back end web solutions for over 20 years for companies large and small, including Zappos, Amazon, Overstock.com and Backcountry.  We will help you execute on your roadmap either directly by working with your engineers and product teams or by taking on projects for you.'
+	'Codingscape is a software team that has been working with front and back end web solutions for over 20 years for companies large and small, including Zappos, Amazon, Overstock.com and Backcountry. We will help you execute on your roadmap either directly by working with your engineers and product teams or by taking on projects for you.'
 );
 
 var about__ref2 = Object(preact_min["h"])(
-	'p',
-	null,
-	'There is another paragraph here. It is pretty good and inspiring, but it\'s also thought provoking. You wonder what the author was thinking when they wrote this paragraph, and whether perhaps they are a little bit like you.'
-);
-
-var about__ref3 = Object(preact_min["h"])(
 	'h2',
 	null,
 	'Founders'
 );
 
-var about__ref4 = Object(preact_min["h"])('img', { src: 'assets/images/porter.jpg' });
+var about__ref3 = Object(preact_min["h"])('img', { src: 'assets/images/porter.jpg' });
 
-var about__ref5 = Object(preact_min["h"])(
+var about__ref4 = Object(preact_min["h"])(
 	'b',
 	null,
 	'Porter Haney'
 );
 
-var about__ref6 = Object(preact_min["h"])(
+var about__ref5 = Object(preact_min["h"])(
 	'p',
 	null,
-	'Porter wrangles the business side of Codingscape. When he\'s not building double decker nachos or skiing powder, he\'s crunching numbers and helping connect great people with one another. If you\'re willing to trade stories with him, you might hear something juicy. \uD83D\uDC4D'
+	'Porter operates the business side of Codingscape, helping to put partnerships together and create scalable web products. Porter\u2019s background is in marketing and technology where he\u2019s contributed with organizations like Backcountry.com, Mount Washington Observatory, USA Today, Wall Street Journal, The White House and dozens of world class organizations. When he\'s not tackling a work project he enjoys backcountry skiing and going on outdoor adventures big and small!'
 );
 
-var about__ref7 = Object(preact_min["h"])('img', { src: 'assets/images/jimmy.jpg' });
+var about__ref6 = Object(preact_min["h"])('img', { src: 'assets/images/jimmy.jpg' });
 
-var about__ref8 = Object(preact_min["h"])(
+var about__ref7 = Object(preact_min["h"])(
 	'b',
 	null,
 	'Jimmy Jacobson'
 );
 
-var about__ref9 = Object(preact_min["h"])(
+var about__ref8 = Object(preact_min["h"])(
 	'p',
 	null,
 	'It\'d be hard to help raise little girls if they looked like lines of code. Luckily, Jimmy is half man, half machine. When he\'s not coding, he\'s deciding which technologies will best serve our clients. Pwning newbs at COD or rocking headstands in Yoga class, it makes no difference to him.'
 );
 
-var about__ref10 = Object(preact_min["h"])('img', { src: 'assets/images/pawel.jpg' });
+var about__ref9 = Object(preact_min["h"])('img', { src: 'assets/images/pawel.jpg' });
 
-var about__ref11 = Object(preact_min["h"])(
+var about__ref10 = Object(preact_min["h"])(
 	'b',
 	null,
 	'Pawel Szymczykowski'
 );
 
-var about__ref12 = Object(preact_min["h"])(
+var about__ref11 = Object(preact_min["h"])(
 	'p',
 	null,
 	'Pawel likes to make things. Sometimes they are made of wood or PLA, sometimes electronic components, and other times they are made out of code. He is an architect and cofounder at Codingscape and does some other useful things too. He has a Shiba Inu named \uD83C\uDF44.'
@@ -6613,20 +6607,34 @@ var about_About = function (_Component) {
 			),
 			about__ref,
 			about__ref2,
-			about__ref3,
 			Object(preact_min["h"])(
 				'div',
 				{ 'class': about_default.a.founder },
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': about_default.a.founderimage },
-					about__ref4
+					about__ref3
 				),
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': about_default.a.foundertext },
-					about__ref5,
+					about__ref4,
+					about__ref5
+				)
+			),
+			Object(preact_min["h"])(
+				'div',
+				{ 'class': about_default.a.founder },
+				Object(preact_min["h"])(
+					'div',
+					{ 'class': about_default.a.founderimage },
 					about__ref6
+				),
+				Object(preact_min["h"])(
+					'div',
+					{ 'class': about_default.a.foundertext },
+					about__ref7,
+					about__ref8
 				)
 			),
 			Object(preact_min["h"])(
@@ -6635,28 +6643,13 @@ var about_About = function (_Component) {
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': about_default.a.founderimage },
-					about__ref7
-				),
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': about_default.a.foundertext },
-					about__ref8,
 					about__ref9
-				)
-			),
-			Object(preact_min["h"])(
-				'div',
-				{ 'class': about_default.a.founder },
-				Object(preact_min["h"])(
-					'div',
-					{ 'class': about_default.a.founderimage },
-					about__ref10
 				),
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': about_default.a.foundertext },
-					about__ref11,
-					about__ref12
+					about__ref10,
+					about__ref11
 				)
 			)
 		);
@@ -6682,68 +6675,191 @@ function contact__inherits(subClass, superClass) { if (typeof superClass !== "fu
 
 
 
+
+
 var contact__ref = Object(preact_min["h"])(
+	'label',
+	{ 'for': 'name' },
+	'Name'
+);
+
+var contact__ref2 = Object(preact_min["h"])(
+	'label',
+	{ 'for': 'email' },
+	'Email'
+);
+
+var contact__ref3 = Object(preact_min["h"])(
+	'label',
+	{ 'for': 'message' },
+	'Message'
+);
+
+var contact__ref4 = Object(preact_min["h"])(
+	'span',
+	null,
+	Object(preact_min["h"])(FontAwesomeIcon, { icon: 'spinner', spin: true }),
+	' Please wait..'
+);
+
+var contact__ref5 = Object(preact_min["h"])(
+	'button',
+	{ type: 'submit' },
+	'Submit'
+);
+
+var contact__ref6 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
 	'Do you have a project for us? Let\'s talk.'
 );
 
-var contact__ref2 = Object(preact_min["h"])(
-	'form',
-	null,
-	Object(preact_min["h"])(
-		'div',
-		{ 'class': 'formgroup' },
-		Object(preact_min["h"])(
-			'label',
-			{ 'for': 'name' },
-			'Name'
-		),
-		Object(preact_min["h"])('input', { type: 'text', name: 'name', id: 'name' })
-	),
-	Object(preact_min["h"])(
-		'div',
-		{ 'class': 'formgroup' },
-		Object(preact_min["h"])(
-			'label',
-			{ 'for': 'email' },
-			'Email'
-		),
-		Object(preact_min["h"])('input', { type: 'text', name: 'email', id: 'email' })
-	),
-	Object(preact_min["h"])(
-		'div',
-		{ 'class': 'formgroup' },
-		Object(preact_min["h"])(
-			'label',
-			{ 'for': 'message' },
-			'Message'
-		),
-		Object(preact_min["h"])('textarea', { name: 'message', id: 'message', rows: '4' })
-	),
-	Object(preact_min["h"])(
-		'button',
-		{ type: 'submit' },
-		'Submit'
-	)
-);
-
 var contact_Contact = function (_Component) {
 	contact__inherits(Contact, _Component);
 
-	function Contact() {
+	function Contact(props) {
 		contact__classCallCheck(this, Contact);
 
-		return contact__possibleConstructorReturn(this, _Component.apply(this, arguments));
+		var _this = contact__possibleConstructorReturn(this, _Component.call(this, props));
+
+		_this.handleSubmit = _this.handleSubmit.bind(_this);
+		_this.handleChange = _this.handleChange.bind(_this);
+		_this.renderErrorsFor = _this.renderErrorsFor.bind(_this);
+		_this.renderForm = _this.renderForm.bind(_this);
+		_this.validateForm = _this.validateForm.bind(_this);
+		_this.state = {
+			errors: []
+		};
+		return _this;
 	}
 
+	Contact.prototype.validateForm = function validateForm() {
+		var _state = this.state,
+		    email = _state.email,
+		    name = _state.name,
+		    message = _state.message;
+
+		var errors = [];
+		if (!name) {
+			errors.push({ field: 'name', message: 'Please lets us know who you are.' });
+		}
+		if (!email || !email.includes('@')) {
+			errors.push({ field: 'email', message: 'Please leave a valid email address so we can get back to you.' });
+		}
+		if (!message) {
+			errors.push({ field: 'message', message: 'Did you forget to leave a message?' });
+		}
+		return errors;
+	};
+
+	Contact.prototype.handleSubmit = function handleSubmit(e) {
+		var _this2 = this;
+
+		var _state2 = this.state,
+		    name = _state2.name,
+		    email = _state2.email,
+		    message = _state2.message;
+
+		e.preventDefault();
+		this.validateForm();
+		var errors = this.validateForm();
+		if (errors.length > 0) {
+			this.setState({ errors: errors });
+		} else {
+			this.setState({ submitting: true, errors: [] });
+			fetch('https://idipifc3ie.execute-api.us-east-1.amazonaws.com/production', {
+				method: 'POST',
+				mode: 'cors',
+				cache: 'no-cache',
+				headers: {
+					"Content-Type": "application/json; charset=utf-8"
+				},
+				body: JSON.stringify({ name: name, email: email, message: message })
+			}).then(function (response) {
+				_this2.setState({ submitted: true });
+			}).catch(function (error) {
+				_this2.setState({
+					submitting: false,
+					errors: [{ field: 'submit', message: 'Sorry, there was an error submiting. Please shoot us a mail at info@codingscape.com!' }]
+				});
+			});
+		};
+	};
+
+	Contact.prototype.handleChange = function handleChange(e) {
+		var _setState;
+
+		this.setState((_setState = {}, _setState[e.target.name] = e.target.value, _setState));
+	};
+
+	Contact.prototype.renderErrorsFor = function renderErrorsFor(field) {
+		var errors = this.state.errors;
+
+		return errors.filter(function (e) {
+			return e.field === field;
+		}).map(function (e, i) {
+			return Object(preact_min["h"])(
+				'div',
+				{ 'class': contact_default.a.error, key: i },
+				e.message
+			);
+		});
+	};
+
+	Contact.prototype.renderForm = function renderForm() {
+		var _state3 = this.state,
+		    email = _state3.email,
+		    name = _state3.name,
+		    message = _state3.message,
+		    submitting = _state3.submitting;
+
+		return Object(preact_min["h"])(
+			'form',
+			{ onSubmit: this.handleSubmit },
+			Object(preact_min["h"])(
+				'div',
+				{ 'class': 'formgroup' },
+				contact__ref,
+				Object(preact_min["h"])('input', { type: 'text', name: 'name', id: 'name', value: name, onChange: this.handleChange }),
+				this.renderErrorsFor('name')
+			),
+			Object(preact_min["h"])(
+				'div',
+				{ 'class': 'formgroup' },
+				contact__ref2,
+				Object(preact_min["h"])('input', { type: 'text', name: 'email', id: 'email', value: email, onChange: this.handleChange }),
+				this.renderErrorsFor('email')
+			),
+			Object(preact_min["h"])(
+				'div',
+				{ 'class': 'formgroup' },
+				contact__ref3,
+				Object(preact_min["h"])('textarea', { name: 'message', id: 'message', rows: '4', onChange: this.handleChange, value: message }),
+				this.renderErrorsFor('message')
+			),
+			this.renderErrorsFor('submit'),
+			submitting ? contact__ref4 : contact__ref5
+		);
+	};
+
+	Contact.prototype.renderSuccess = function renderSuccess() {
+		return Object(preact_min["h"])(
+			'div',
+			{ 'class': contact_default.a.contactSuccess },
+			'Thanks! We\'ll be in touch soon.'
+		);
+	};
+
 	Contact.prototype.render = function render() {
+		var submitted = this.state.submitted;
+
+
 		return Object(preact_min["h"])(
 			'div',
 			{ 'class': contact_default.a.contact },
 			Object(preact_min["h"])('div', { 'class': 'page-header ' + contact_default.a.header }),
-			contact__ref,
-			contact__ref2
+			contact__ref6,
+			submitted ? this.renderSuccess() : this.renderForm()
 		);
 	};
 
@@ -6823,6 +6939,7 @@ library.add(faTerminal);
 library.add(faMobileAlt);
 library.add(faCloud);
 library.add(faPenSquare);
+library.add(faSpinner);
 
 
 
@@ -10391,7 +10508,7 @@ module.exports = {"header":"header__2iMHx","founder":"founder__3RUV0 row__2K_q2"
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"header":"header__Lyal2"};
+module.exports = {"header":"header__Lyal2","contactSuccess":"contactSuccess__j4qto","error":"error__1yUKE"};
 
 /***/ }),
 
