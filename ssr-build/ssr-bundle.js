@@ -5803,8 +5803,10 @@ var home_Home = function (_Component) {
 	}
 
 	/*
- 	Project management: https://www.pexels.com/photo/schedule-planning-startup-launching-7376/
- 	*/
+ 
+ Project management: https://www.pexels.com/photo/schedule-planning-startup-launching-7376/
+ 
+ */
 
 	Home.prototype.render = function render() {
 		return Object(preact_min["h"])(
