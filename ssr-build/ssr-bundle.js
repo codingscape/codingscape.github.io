@@ -5761,7 +5761,7 @@ var home__ref2 = Object(preact_min["h"])(
 var _ref3 = Object(preact_min["h"])(
 	'p',
 	null,
-	'We don\'t do embelished sales pitches or powerpoint presentations to make a sale, but we will listen to your problems and work with you to see how we can help. If we don\'t think we\'re the best for the job, we\'ll try to refer you to someone who is.'
+	'We don\'t do embelished sales pitches or powerpoint presentations to make a sale, but we will listen to your problems and work with you to see how we can help. If your project or software need is a good fit for us, we are happy to help. If not we can help connect you to other great service providers.'
 );
 
 var _ref4 = Object(preact_min["h"])('img', { src: 'assets/images/pair-programming.jpg' });
