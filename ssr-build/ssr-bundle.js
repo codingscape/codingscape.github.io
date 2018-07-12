@@ -5749,32 +5749,38 @@ function home__inherits(subClass, superClass) { if (typeof superClass !== "funct
 var home__ref = Object(preact_min["h"])(
 	'h2',
 	null,
-	'How can we help?'
+	'What can we do for you?'
 );
 
 var home__ref2 = Object(preact_min["h"])(
 	'p',
 	null,
-	'Codingscape is a full service software consulting and development company - we\u2019re here to help you solve your software goals. We\u2019re trustworthy people ready to lend a hand on a problem or take a software project from start to finish.'
+	'Codingscape is a full service software consulting and development company - we\u2019re here to help you solve your software goals. We are a trustworthy and reliable team, ready to lend a hand on a problem or take a software project from start to finish.'
 );
 
-var _ref3 = Object(preact_min["h"])('img', { src: 'assets/images/pair-programming.jpg' });
+var _ref3 = Object(preact_min["h"])(
+	'p',
+	null,
+	'We don\'t do embelished sales pitches or powerpoint presentations to make a sale, but we will listen to your problems and work with you to see how we can help. If we don\'t think we\'re the best for the job, we\'ll try to refer you to someone who is.'
+);
 
-var _ref4 = Object(preact_min["h"])(
+var _ref4 = Object(preact_min["h"])('img', { src: 'assets/images/pair-programming.jpg' });
+
+var _ref5 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
-	'Helping you reach your goals.'
+	'Our job is helping you to reach your goals.'
 );
 
-var _ref5 = Object(preact_min["h"])('img', { src: 'assets/images/charting.jpg' });
+var _ref6 = Object(preact_min["h"])('img', { src: 'assets/images/charting.jpg' });
 
-var _ref6 = Object(preact_min["h"])(
+var _ref7 = Object(preact_min["h"])(
 	'p',
 	null,
 	'Learn more about the types of projects we work on and the services we offer on our capabilities page! Or contact us if you want to discuss a project in depth - we\u2019re always happy to hop on the phone and talk through a potential project. Just ask!'
 );
 
-var _ref7 = Object(preact_min["h"])(
+var _ref8 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
 	'The reward for work well done is the',
@@ -5842,30 +5848,31 @@ var home_Home = function (_Component) {
 					'div',
 					{ 'class': home_default.a.blurbtext },
 					home__ref,
-					home__ref2
+					home__ref2,
+					_ref3
 				),
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': home_default.a.blurbimage },
-					_ref3
+					_ref4
 				)
 			),
-			_ref4,
+			_ref5,
 			Object(preact_min["h"])(
 				'div',
 				{ 'class': home_default.a.blurb },
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': home_default.a.blurbimage },
-					_ref5
+					_ref6
 				),
 				Object(preact_min["h"])(
 					'div',
 					{ 'class': home_default.a.blurbtext },
-					_ref6
+					_ref7
 				)
 			),
-			_ref7
+			_ref8
 		);
 	};
 
@@ -6409,9 +6416,7 @@ var capabilities__ref5 = Object(preact_min["h"])(skill_icon_SkillIcon, { icon: '
 
 var capabilities__ref6 = Object(preact_min["h"])(skill_icon_SkillIcon, { icon: 'cloud', name: 'Cloud', target: '#cloud' });
 
-var capabilities__ref7 = Object(preact_min["h"])(skill_icon_SkillIcon, { icon: 'pen-square', name: 'Design', target: '#design' });
-
-var _ref8 = Object(preact_min["h"])(
+var capabilities__ref7 = Object(preact_min["h"])(
 	'div',
 	{ 'class': 'jumbo' },
 	'Excellence is not a skill, it\'s an attitude.',
@@ -6422,7 +6427,7 @@ var _ref8 = Object(preact_min["h"])(
 	)
 );
 
-var _ref9 = Object(preact_min["h"])(
+var capabilities__ref8 = Object(preact_min["h"])(
 	skill_detail_SkillDetail,
 	{ icon: 'code', anchor: 'front-end' },
 	Object(preact_min["h"])(
@@ -6430,10 +6435,19 @@ var _ref9 = Object(preact_min["h"])(
 		null,
 		'Front End'
 	),
-	'Hello. Here is where we detail.'
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'Front End technology has never moved at a faster pace than it does today. There are new frameworks popping up seemingly every day and they are often accompanied by sophisticated back end tooling to transform and optimize front end assets for maximum performance while not sacrificing maintainability. We can help you pick the right technology for your new project, or we can work with what you have and make it better!'
+	),
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'We work with: React, Redux, Vue.js, Angular, jQuery, ES6+ and legacy vanilla JavaScript, build tools and transpilers such as webpack, Babel, Browserify and many others.'
+	)
 );
 
-var _ref10 = Object(preact_min["h"])(
+var _ref9 = Object(preact_min["h"])(
 	skill_detail_SkillDetail,
 	{ icon: 'terminal', anchor: 'back-end' },
 	Object(preact_min["h"])(
@@ -6441,10 +6455,24 @@ var _ref10 = Object(preact_min["h"])(
 		null,
 		'Back End'
 	),
-	'Hello. Here is where we detail.'
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'Our team feels at home in front of a command prompt and can help you build backend systems that are secure, reliable and will handle as much traffic as your application requires. This goes far beyond just writing solid code, but also to picking the right back-end services and network topology and configuring them properly to make sure they can fail over gracefully and there are no timeouts or dreaded gateway errors. Our developers are OWASP certified and can work with your team on securing your codebase. We can help you build API\'s, microservices, or entire websites.'
+	),
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'We work with: Node.js, Ruby / Rails, PHP, Perl, Java, Python, C and have worked with others.'
+	),
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'Backend services: PostgreSQL, MongoDB, Redis, MySQL / MariaDB, DynamoDB.'
+	)
 );
 
-var _ref11 = Object(preact_min["h"])(
+var _ref10 = Object(preact_min["h"])(
 	skill_detail_SkillDetail,
 	{ icon: 'mobile-alt', anchor: 'mobile' },
 	Object(preact_min["h"])(
@@ -6452,10 +6480,19 @@ var _ref11 = Object(preact_min["h"])(
 		null,
 		'Mobile'
 	),
-	'Hello. Here is where we detail.'
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'More people are accessing content and making purchases via mobile devices and tablets than ever before. For an increasing segment of the population, this is the only way they connect to the internet! For this segment, you may as well be invisible if you don\'t have a mobile presence. We can help you develop a native mobile app for Apple or Android devices or develop a great site with mobile-first optimizations that will load quickly, look great and feel comfortable to use on a touch device. We can even optimize your existing site to be mobile friendly.'
+	),
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'We work with: React Native, Swift, Objective-C, Kotlin and Java.'
+	)
 );
 
-var _ref12 = Object(preact_min["h"])(
+var _ref11 = Object(preact_min["h"])(
 	skill_detail_SkillDetail,
 	{ icon: 'cloud', anchor: 'cloud' },
 	Object(preact_min["h"])(
@@ -6463,18 +6500,16 @@ var _ref12 = Object(preact_min["h"])(
 		null,
 		'Cloud Services'
 	),
-	'Hello. Here is where we detail.'
-);
-
-var _ref13 = Object(preact_min["h"])(
-	skill_detail_SkillDetail,
-	{ icon: 'pen-square', anchor: 'design' },
 	Object(preact_min["h"])(
-		'h2',
+		'p',
 		null,
-		'Design'
+		'Some of the biggest advantages of hosting your site in the cloud are automation, virtually unlimited scaling, and high availability. We can work with you to develop a strategy for hosting your application on Amazon Web Services that will give you peace of mind. Scale your server capacity up and down to handle traffic spikes, paying for only what you need. Deploy copies of your whole application and all the services you use for testing with a few button pushes. Run your app in multiple available zones so that even if there is an AWS outage in your primary zone, your app will be resilient.'
 	),
-	'Hello. Here is where we detail.'
+	Object(preact_min["h"])(
+		'p',
+		null,
+		'We work primarily with AWS including: EC2, Elastic Container Service, Docker, S3, Lambda, CloudFront, CloudFormation, S3, IAM and more.'
+	)
 );
 
 var capabilities_Capabilities = function (_Component) {
@@ -6503,15 +6538,13 @@ var capabilities_Capabilities = function (_Component) {
 				capabilities__ref3,
 				capabilities__ref4,
 				capabilities__ref5,
-				capabilities__ref6,
-				capabilities__ref7
+				capabilities__ref6
 			),
-			_ref8,
+			capabilities__ref7,
+			capabilities__ref8,
 			_ref9,
 			_ref10,
-			_ref11,
-			_ref12,
-			_ref13
+			_ref11
 		);
 	};
 
@@ -6795,14 +6828,17 @@ var contact_Contact = function (_Component) {
 	};
 
 	Contact.prototype.renderErrorsFor = function renderErrorsFor(field) {
+		var _this3 = this;
+
 		var errors = this.state.errors;
 
 		return errors.filter(function (e) {
 			return e.field === field;
 		}).map(function (e, i) {
+			_this3.errNum += 1;
 			return Object(preact_min["h"])(
 				'div',
-				{ 'class': contact_default.a.error, key: i },
+				{ 'class': [contact_default.a.error, contact_default.a['error' + _this3.errNum]].join(' '), key: i },
 				e.message
 			);
 		});
@@ -6815,6 +6851,7 @@ var contact_Contact = function (_Component) {
 		    message = _state3.message,
 		    submitting = _state3.submitting;
 
+		this.errNum = 0;
 		return Object(preact_min["h"])(
 			'form',
 			{ onSubmit: this.handleSubmit },
@@ -10510,7 +10547,7 @@ module.exports = {"header":"header__2iMHx","founder":"founder__3RUV0 row__2K_q2"
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
-module.exports = {"header":"header__Lyal2","contactSuccess":"contactSuccess__j4qto","error":"error__1yUKE"};
+module.exports = {"header":"header__Lyal2","contactSuccess":"contactSuccess__j4qto","error":"error__1yUKE","error1":"error1__2-W7-","grow":"grow__3d-Pn","error2":"error2__rvioO","error3":"error3__2ORv_","error4":"error4__37fEf","error5":"error5__3O9jh"};
 
 /***/ }),
 
